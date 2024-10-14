@@ -12,7 +12,6 @@ import tensorflow.keras as ks
 
 from matbench.bench import MatbenchBenchmark
 from graphlist import GraphList, HDFGraphList
-sys.path.append("/home/jupyter/YD/CrysTAG/gcnn_keras_coGN")
 from kgcnn.literature.coGN import make_model, model_default, model_default_nested
 from kgcnn.crystal.preprocessor import KNNUnitCell, KNNAsymmetricUnitCell, CrystalPreprocessor, VoronoiAsymmetricUnitCell
 from kgcnn.graph.methods import get_angle_indices
